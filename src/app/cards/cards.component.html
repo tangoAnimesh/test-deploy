@@ -1,0 +1,20 @@
+<section
+  class="my-2 d-flex justify-content-center align-items-center h-100 min-vh-100"
+>
+  <div class="container-fluid">
+    <div class="row gy-2">
+      <div class="col-lg-12 col-md-4 my-4" *ngFor="let arr of cards_Data_Arr">
+
+        <div class="box h-100  d-flex p-2 flex-column custom__box">
+            <h5 class="card-title">{{arr.redit_title}}</h5>
+            <div [innerHTML]="arr.redit_selftext_html ? arr.redit_selftext_html : 'No content Present' " class="card_selfText_Html p-3" ></div>
+           <div class="card__lower mt-auto">
+            <a [href]="arr.redit_url" target="_blank" class="btn btn-primary">Hit Me</a>
+            <p  class="btn btn-primary mt-auto">{{arr.redit_score}}</p>
+           </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

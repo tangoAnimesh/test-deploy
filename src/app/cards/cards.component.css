@@ -1,0 +1,27 @@
+
+.custom__box{
+    border: 1px solid #000;
+    transition: 0.4s;
+    background-color: #fff;
+    width: 100%;
+}
+ .custom__box:hover{
+    cursor: pointer;
+    transform: translate(-6px,-6px);
+    box-shadow: 7px 7px #000,
+                7px 7px #000,
+                7px 7px #000;
+} 
+.card__lower{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.card_selfText_Html{
+    font-size: 12px;
+}
+
+ul li {
+    list-style: square outside none;
+}

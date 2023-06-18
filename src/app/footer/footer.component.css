@@ -1,0 +1,16 @@
+footer {
+    color: #000000 !important;
+    border: 1px solid #000;
+
+    box-shadow: 0 7px 7px hsl(0deg 0% 4% / 30%), 0 4px 4px hsl(0deg 0% 4% / 30%), 0 4px 4px hsl(0deg 0% 4% / 30%);
+    background: linear-gradient(30deg, transparent, #ffffff);
+
+    margin: .5rem auto;
+    width: 98%;
+}
+
+.custom__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

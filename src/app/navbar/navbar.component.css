@@ -1,0 +1,32 @@
+
+.nav__custom{
+    border: 1px solid #000;
+    box-shadow: 0 7px 7px hsl(0deg 0% 4% / 30%), 0 4px 4px hsl(0deg 0% 4% / 30%), 0 4px 4px hsl(0deg 0% 4% / 30%);
+    background: linear-gradient(30deg, transparent, #ffffff);
+}
+
+
+.form-control{
+    border: 1px solid #000;
+    border-radius: 0 !important;
+    transition: 0.3s;
+}
+
+.form-control:focus {
+   transform: translate(-6px , -6px);
+    box-shadow: 5px 5px #000;
+}
+
+button{
+    border-radius: 0 !important;
+    border: 1px solid #000 !important;
+    transition: 0.3s;
+
+}
+
+button:focus{
+    outline: none;
+    transform: translate(-3px , 3px);
+    box-shadow: 2px 2px #000;
+}
+
